@@ -319,9 +319,29 @@
     <p class="footer__copy">&#169; Hope Glasses. Empowering communication worldwide</p>
 </footer>
     
-        <!-- Update footer content accordingly -->
-       
-    
-        <!-- Keep all existing scripts -->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyA8xdjnbnqoO6Y1mdz4wLEgN2t8rbzf88g",
+      authDomain: "hope-54a0a.firebaseapp.com",
+      databaseURL: "https://hope-54a0a-default-rtdb.firebaseio.com",
+      projectId: "hope-54a0a",
+      storageBucket: "hope-54a0a.firebasestorage.app",
+      messagingSenderId: "894285112613",
+      appId: "1:894285112613:web:eba198f6462edd43aba6cc",
+      measurementId: "G-YKHGMY5MCX"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
     </body>
     </html>
